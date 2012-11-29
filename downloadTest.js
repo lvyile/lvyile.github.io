@@ -20,7 +20,7 @@ var Interface = Class(aBase,
                 this.button = (new Button({x:260, y:280})).init();
 	            this.button.setBeTouchAble(true);
 	            this.button.addReleaseUpListener(gListenerFactory.createListenerWithType(2,this,this.buttonRelease));
-
+                uiSystem.m_pCurScene.addWidget(this.button);
                },
 
 	            buttonRelease: function(sender, handler) {
