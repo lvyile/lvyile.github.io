@@ -6,10 +6,10 @@ var Interface = Class(aBase,
                
                init : function(){
                 
-                this.downLoadBar = (new LoadingBar({x:150, y:280})).init();
+                this.downLoadBar = (new LoadingBar({x:0, y:280})).init();
                 this.downLoadBar.setTexture("bar.png");
-                this.downLoadBar.setPercent(0);
                 uiSystem.m_pCurScene.addWidget(this.downLoadBar);
+                this.downLoadBar.setPercent(0);                
 
                 this.label3 = (new Label({x:240,y:280})).init();
                 this.label3.setText("下载js重启之后的label、图片和Button, 测断点续传点我->>>");
@@ -17,7 +17,7 @@ var Interface = Class(aBase,
                 this.label3.setBeTouchAble(true);
                 uiSystem.m_pCurScene.addWidget(this.label3);
                 
-                this.button = (new Button({x:260, y:280})).init();
+                this.button = (new Button({x:400, y:280})).init();
 	            this.button.setBeTouchAble(true);
 	            this.button.addReleaseUpListener(gListenerFactory.createListenerWithType(2,this,this.buttonRelease));
                 uiSystem.m_pCurScene.addWidget(this.button);
