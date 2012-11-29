@@ -21,11 +21,13 @@ var Interface = Class(aBase,
 	            this.button.setBeTouchAble(true);
 	            this.button.addReleaseUpListener(gListenerFactory.createListenerWithType(2,this,this.buttonRelease));
 
+               },
+
 	            buttonRelease: function(sender, handler) {
-                           
-                    handler.initHttp();
-                }
-               }
+	                       
+	                handler.initHttp();
+	            }
+               
                
                initHttp: function() {
                             //--InitHttp 共用信息--
