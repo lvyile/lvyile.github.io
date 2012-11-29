@@ -11,7 +11,7 @@ var Interface = Class(aBase,
                   uiSystem.m_pCurScene.addWidget(this.downLoadBar);
 
                 this.label3 = (new Label({x:240,y:280})).init();
-                this.label3.setText("我是下载js完成之后的label, 点击右侧开始下载大型文件，测断点续传->");
+                this.label3.setText("下载js重启之后的label、图片和Button, 测断点续传点我->>>");
                 this.label3.setFontSize(18);
                 this.label3.setBeTouchAble(true);
 
