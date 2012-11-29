@@ -39,8 +39,8 @@ var Interface = Class(aBase,
                             http_setTimeOut(15);                       //--下载断线重连超时15秒--
                             http_addHeader( "User_Agent : cclv" );      //--添加http头信息--
                             http_addHeader( "ContineLen : 1024" );     //--添加http头信息--
-                            
-                            addr ＝ "http://upyun.cocimg.com/SP2/2012_11_26/SPII-SDK_v0.1.4.part01.rar";
+                           
+                            addr = "http://upyun.cocimg.com/SP2/2012_11_26/SPII-SDK_v0.1.4.part01.rar";
                             var action = "lvTestFromDownloadJS";              //--随便下一个普通的资源的时候就协议随便定义就行--
                             http_downloadRequest( addr,action );
                             
