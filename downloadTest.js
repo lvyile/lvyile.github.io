@@ -26,7 +26,7 @@ var Interface = Class(aBase,
 	            buttonRelease: function(sender, handler) {
 	                       
 	                handler.initHttp();
-	            }
+	            },
                
                
                initHttp: function() {
