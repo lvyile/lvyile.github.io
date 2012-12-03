@@ -7,7 +7,7 @@ var Interface = Class(aBase,
                
                init : function(){
                 
-                this.downLoadBar = (new LoadingBar({x:0, y:280})).init();
+                this.downLoadBar = (new LoadingBar({x:0, y:300})).init();
                 this.downLoadBar.setTexture("bar.png");
                 uiSystem.m_pCurScene.addWidget(this.downLoadBar);
                 this.downLoadBar.setPercent(0);                
