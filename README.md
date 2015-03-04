@@ -1,3 +1,7 @@
+![Platform](https://img.shields.io/badge/platform-iOS-brightgreen.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 - [概况](#%E6%A6%82%E5%86%B5)
